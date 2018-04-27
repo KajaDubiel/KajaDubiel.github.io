@@ -97,7 +97,10 @@ body {
   border: none;
   margin: 0;
   padding: 10px;
-  flex-grow: 1; }
+  flex-grow: 1;
+  flex-shrink: 0;
+  width: 40%; /*improved*/
+}
 
 .datatable__row-section--button-section {
   margin-left: auto;
