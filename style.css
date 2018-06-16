@@ -150,6 +150,9 @@ body {
   width: 35%; /*improved*/
 }
 
+.datatable__row-section .thin {
+  max-width: 20%;
+}
 .datatable__row-section--button-section,
 .datatable__row-section--trello-section {
   margin-left: auto;
@@ -186,6 +189,10 @@ body {
   line-height: 1.25;
   border-radius: 4px; 
   transition: background-color 0.3s;
+}
+
+option {
+  text-overflow: ellipsis;
 }
 
 .datatable__button:hover {
